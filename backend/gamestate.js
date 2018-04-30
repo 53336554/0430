@@ -384,7 +384,6 @@ const gameState = {
           this.me[0] = event.data.newLoc[0]
           this.me[1] = event.data.newLoc[1]
           this.me[2] = event.data.newLoc[2]
-          this.me[3] = -360 // so that map will not render aim line
         }
         const apawnObj = this.apawnsMap.get(event.guid)
         if (apawnObj) {
